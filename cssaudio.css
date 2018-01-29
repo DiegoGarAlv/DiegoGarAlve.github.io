@@ -1,0 +1,77 @@
+nav > a{
+	font:normal normal 20px 'Fredericka the Great', Arial, Tahoma;
+	text-decoration: none;
+
+}
+#collapsibleNavbar > ul > li{
+	font:normal normal 20px 'Fredericka the Great', Arial, Tahoma;
+	text-decoration: none;
+} 
+.jumbotron-fluid > h1{
+	font:normal normal 50px 'Fredericka the Great', Arial, Tahoma;
+	text-decoration: none;
+}
+
+#rrss{
+	float: left;
+	width: 12%;
+	height: 80px;
+	padding: 20px
+	margin-top:20px;
+
+}
+.facebook{
+  width: 75px;
+  height: 75px;
+  background: transparent url("Recursos/iconosrrss.png");
+  background-position: 0px 0px;
+  transition-property: background-position;
+  transition-duration: .1s;
+  transition-timing-function:ease-out;
+  float:left;
+  
+}
+
+.instagram{
+  width: 80px;
+  height: 75px;
+  background: transparent url("Recursos/iconosrrss.png");
+  background-position: -75px 0px;
+  transition:background-position .1s ease-out;
+  float:left;
+  
+}
+.facebook:hover{
+  background-position: 0px -75px;
+}
+.instagram:hover{
+  background-position: -80px -75px;
+}
+.rrss a{
+  margin: 5px;
+}
+
+#copi{
+	  text-align: center;
+ 
+}
+
+#copi > p{
+	font:normal normal 15px 'Fredericka the Great', Arial, Tahoma;
+	color: #FCD35F;
+}
+#contacto{
+	  text-align: center;
+ 
+}
+
+#contacto > p{
+	font:normal normal 20px 'Fredericka the Great', Arial, Tahoma;
+	color: #FCD35F;
+}
+ #logo img{
+  transition: transform 4s;
+}
+#logo img:hover{
+ transform: rotate(360deg);
+} 
